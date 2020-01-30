@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.5em;
+  background-color: whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 100%;
+  background-color: whitesmoke;
+  padding-top: 5em;
+  /* margin:0 auto; */
+
+}
+.info{
+  font-size: 1em;
+  margin: 20px;
+}
+
+
+ .fc td, .fc th{
+  /* border-style: none !important; */
+  font-weight: 600;
+  font-size: 1.7em;
+  /* text-align: center !important; */
+}
+.fc-toolbar.fc-header-toolbar {
+  font-size: 2.2em;
+}
+
+
+.fc-time{
+
+  display: none;
+}
+
+.demo-app-calendar{
+  display: flex;
+}
+.localday_display{
+  font-size: 2em;
+}
